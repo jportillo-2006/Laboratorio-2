@@ -20,6 +20,8 @@
   "homepage": "https://github.com/jportillo-2006/Laboratorio-2#readme",
   "description": "",
   "dependencies": {
+    "app-centroeducativo": "file:",
+    "argon2": "^0.41.1",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
