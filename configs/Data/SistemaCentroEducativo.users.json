@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "67bd31d5b6ec9e3159f056d8"
+  },
+  "name": "Me gusta el pan",
+  "surname": "Lo ma duro del sistema",
+  "email": "lpichiya@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$r+FVWl9P00/gh4uTR69rBA$8WwX+aYkxkLJF7um8Gk332ScO3luHtUIq/6wFjvqfh4",
+  "role": "STUDENT_ROLE",
+  "courses": [
+    {
+      "$oid": "67bd50f37a29cce3a247324e"
+    },
+    {
+      "$oid": "67bd51587a29cce3a2473252"
+    },
+    {
+      "$oid": "67bd53117a29cce3a2473258"
+    }
+  ],
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-25T02:58:29.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T06:47:06.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bd3259b6ec9e3159f056db"
+  },
+  "name": "Elkyn",
+  "surname": "Samagorda",
+  "email": "esamayoa@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$sPsqtXg5jqstrMZe+ZBdnQ$Jbs43VxOi2Dg4wRAuT/Y4l3Wn32O6EVRv8qa4LX60aM",
+  "role": "TEACHER_ROLE",
+  "courses": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T03:00:41.974Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T03:00:41.974Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bd65867ada8cd4cbf132d1"
+  },
+  "name": "Paltita",
+  "surname": "Yax",
+  "email": "jyax@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$xqNCSj7uD5a69Q7bqKj/xA$lEPNA9kAStBDZQuLTmLmlZCXwYJi1i3tbnIZ9nNrA+Q",
+  "role": "STUDENT_ROLE",
+  "courses": [],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T06:39:02.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T06:39:02.514Z"
+  }
+}]

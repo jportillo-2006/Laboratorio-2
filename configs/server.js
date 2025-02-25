@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import authRoutes from '../src/auth/auth.routes.js';
 import courseRoutes from '../src/courses/course.routes.js';
+import userRoutes from '../src/users/user.routes.js'
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -19,6 +20,7 @@ const middlewares = (app) => {
 const routes = (app) => {
     app.use('/SistemaCentroEducativo/v1/auth', authRoutes);
     app.use('/SistemaCentroEducativo/v1/course', courseRoutes);
+    app.use('/SistemaCentroEducativo/v1/user', userRoutes);
 }
 
 const conectarDB = async () => {
