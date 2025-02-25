@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67bd50f37a29cce3a247324e"
+  },
+  "name": "mate",
+  "description": "un tiro",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bd51587a29cce3a2473252"
+  },
+  "name": "religion",
+  "description": "bivacristorey",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bd53117a29cce3a2473258"
+  },
+  "name": "biologia",
+  "description": "aparato reproductor masculino",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bd53dc7a29cce3a247325e"
+  },
+  "name": "Educacion fisica",
+  "description": "5x30",
+  "status": true,
+  "__v": 0
+}]
